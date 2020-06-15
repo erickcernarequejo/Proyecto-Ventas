@@ -1,0 +1,62 @@
+PRODUCTOS
+------------
+
+[
+    {
+        "idProducto": 1,
+        "nombre": "S10",
+        "marca": "Samsung"
+    },
+    {
+        "idProducto": 2,
+        "nombre": "S20",
+        "marca": "Samsung"
+    },
+    {
+        "idProducto": 3,
+        "nombre": "P30",
+        "marca": "Huawei"
+    }
+]
+
+PERSONAS
+------------
+
+[
+    {
+        "idPersona": 1,
+        "nombres": "Juan",
+        "apellidos": "Requejo"
+    },
+    {
+        "idPersona": 2,
+        "nombres": "Erick",
+        "apellidos": "Cerna"
+    }
+]
+
+
+VENTA
+------------
+
+{
+	"persona" : {
+		"idPersona" : 2
+	},
+    "importe" : 1500,
+	"fecha" : "2020-06-15T10:00:00.000Z",
+	"detalleVenta" : [
+		{
+            "producto" : {
+                "idProducto" : "1"
+            },
+            "cantidad" : 2
+        },
+        {
+            "producto" : {
+                "idProducto" : "2"
+            },
+            "cantidad" : 4
+        }
+	]
+}
